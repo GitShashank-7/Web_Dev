@@ -1,0 +1,9 @@
+td {
+    border: 2px solid black;
+}
+
+caption {
+    font-size: xx-large;
+    color: brown;
+    font-style: italic;
+}
