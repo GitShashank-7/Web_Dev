@@ -5,3 +5,11 @@ p{
 a{
     background-color: rgb(148, 148, 125);
 }
+
+div{
+    background-color: yellow;
+}
+
+span{
+    background-color: rgb(62, 25, 97);
+}
