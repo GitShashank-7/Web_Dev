@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu-toggle {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-toggle-label {
+  cursor: pointer;
+}
+
+.menu-toggle-icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu-toggle-icon::before,
+.menu-toggle-icon::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu-toggle-icon::before {
+  transform: translateY(-8px);
+}
+
+.menu-toggle-icon::after {
+  transform: translateY(8px);
+}
+
+#menu-toggle-checkbox:checked + .menu-toggle-label .menu-toggle-icon {
+  background-color: transparent;
+}
+
+#menu-toggle-checkbox:checked + .menu-toggle-label .menu-toggle-icon::before {
+  transform: rotate(45deg);
+}
+
+#menu-toggle-checkbox:checked + .menu-toggle-label .menu-toggle-icon::after {
+  transform: rotate(-45deg);
+}
+    </style>
+</head>
+<body>
+    <div class="menu-toggle">
+        <input type="checkbox" id="menu-toggle-checkbox">
+        <label for="menu-toggle-checkbox" class="menu-toggle-label">
+          <span class="menu-toggle-icon"></span>
+        </label>
+      </div>
+</body>
+</html>
