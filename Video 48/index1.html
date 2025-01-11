@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            animation: motionX 3s linear infinite, motionY 1s ease-out infinite alternate;
+            animation: myanimation 4s linear infinite;
         }
 
         .container {
@@ -21,35 +22,34 @@
             height: 80vh;
             width: 80vw;
             background-color: blue;
-            
+        }
+
+        @keyframes myanimation {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(calc(20vw - 60.5px), calc(-20vh + 181px)); /* 20% point */
+            }
+
+            100% {
+                transform: translate(calc(80vw - 121px), 0);
+            }
         }
         
-        @keyframes motionX {
-            from{
-                left: 0;
-            }
-            to{
-                left: 100%;
-            }
-        }
-        @keyframes motionY {
-            from{
-                bottom: 0;
-                background-color: black;
-            }
-            to{
-                bottom: 100%;
-                background-color: red;
-            }
-        }
     </style>
 </head>
+
 <body>
     <div class="container">
 
         <div class="box">
         </div>
     </div>
-    
+    <!-- 
+   
+     -->
 </body>
+
 </html>
