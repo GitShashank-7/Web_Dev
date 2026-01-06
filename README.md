@@ -1,17 +1,36 @@
-Welcome to Sigma's Web Development Course - Hindi Web Development Tutorials! 🚀
-What's Inside:
-If you've been itching to dive into the world of web development but feel lost in a sea of English tutorials, you're in the right place! Our course is exclusively in Hindi and is crafted to guide you from being an absolute beginner to a seasoned pro, one step at a time.
+📚 What’s Inside
+If you want to learn web development from scratch and prefer Hindi explanations, this repo is for you.
+You’ll learn the basics with short lessons, simple examples, and small projects.
 
-Who Can Benefit?
-This course is a perfect fit for:
-Beginners eager to start their web development journey
-Intermediate developers looking to refine their skills
-Individuals who prefer learning in Hindi
-What You'll Master:
-During this course, you'll delve into:
-The fundamentals of HTML, CSS, and JavaScript
-Both front-end and back-end development
-How to seamlessly integrate databases
-Real-world project implementation
-And a whole lot more!# Web_Dev
- Source Code for Web Dev
+🤷‍♂️ Who Is This For?
+
+Absolute beginners starting from zero
+Learners who prefer Hindi
+Anyone who wants a clear, simple path without advanced topics
+
+
+🎯 What You’ll Learn
+
+HTML Basics: headings, paragraphs, links, images, lists
+CSS Basics: colors, fonts, box model, spacing, simple layouts
+JavaScript Basics: variables, functions, conditionals, loops
+DOM Basics: selecting elements, events, simple interactions
+Git Basics: how to save your code (commit) and use GitHub
+
+
+🧭 Course Outline
+
+HTML Essentials — tags, attributes, images, links
+CSS Essentials — styling, box model, Flexbox basics, responsive touch 📱
+JavaScript Essentials — variables, operators, functions, arrays
+DOM & Events — click/submit events, updating text/styles
+Git & GitHub — install, init, commit, push, basic workflow
+Mini Projects — put it all together in small, fun apps
+
+
+🧪 Mini Projects You’ll Build
+
+Profile Page (HTML + CSS)
+Color Picker (CSS + JS)
+Todo List (JS + DOM)
+Quiz App (JS + DOM + Events)
